@@ -3,7 +3,8 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, MessageCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { motion, AnimatePresence } from 'framer-motion';
-import LedTicker from '@/components/LedTicker.jsx';
+import DemoBar from '@/components/DemoBar.jsx';
+import { openMkWhatsApp } from '@/lib/mk-demo.js';
 
 function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -18,12 +19,12 @@ function Header() {
 
   const isActive = (path) => location.pathname === path;
 
-  const handleWhatsAppClick = () => {
-    window.open('https://wa.me/905551234567', '_blank');
-  };
+  // Demo: the only real contact is MK Digital Systems, with a message naming this demo.
+  const handleWhatsAppClick = openMkWhatsApp;
 
   return (
     <>
+    <DemoBar />
     <header className="sticky top-0 z-50 bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
@@ -115,7 +116,6 @@ function Header() {
         )}
       </AnimatePresence>
     </header>
-    <LedTicker />
     </>
   );
 }

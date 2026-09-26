@@ -22,7 +22,7 @@ function ArticlesPage() {
   return (
     <>
       <Helmet>
-        <title>Makaleler - Adalet Hukuk Bürosu</title>
+        <title>Makaleler | Adalet Hukuk Demosu</title>
         <meta
           name="description"
           content="Hukuk alanında güncel makaleler, analiz ve yorumlar. Ceza, ticaret, aile ve idari hukuk konularında bilgilendirici içerikler."

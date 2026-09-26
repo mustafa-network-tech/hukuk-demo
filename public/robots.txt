@@ -1,0 +1,3 @@
+# Crawlable on purpose so search engines can read the noindex; no sitemap for a demo.
+User-agent: *
+Allow: /

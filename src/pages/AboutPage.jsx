@@ -10,7 +10,7 @@ function AboutPage() {
   return (
     <>
       <Helmet>
-        <title>Hakkımızda - Adalet Hukuk Bürosu</title>
+        <title>Hakkımızda | Adalet Hukuk Demosu</title>
         <meta
           name="description"
           content="Adalet Hukuk Bürosu olarak misyonumuz, vizyonumuz ve değerlerimiz hakkında bilgi edinin. Profesyonel hukuki hizmet anlayışımızı keşfedin."

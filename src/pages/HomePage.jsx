@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import { openMkWhatsApp } from '@/lib/mk-demo.js';
 import { MessageCircle, Scale, Users, Award } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
@@ -8,9 +9,7 @@ import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
 
 function HomePage() {
-  const handleWhatsAppClick = () => {
-    window.open('https://wa.me/905551234567', '_blank');
-  };
+  const handleWhatsAppClick = openMkWhatsApp;
 
   const features = [
     {
@@ -35,7 +34,7 @@ function HomePage() {
   return (
     <>
       <Helmet>
-        <title>Adalet Hukuk Bürosu - Profesyonel Hukuki Danışmanlık</title>
+        <title>Adalet Hukuk — Hukuk Bürosu Web Sitesi Demosu | MK Digital Systems</title>
         <meta
           name="description"
           content="Ankara merkezli Adalet Hukuk Bürosu olarak ceza, ticaret, aile ve idari hukuk alanlarında profesyonel hukuki danışmanlık ve temsil hizmetleri sunuyoruz."

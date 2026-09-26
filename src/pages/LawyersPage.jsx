@@ -11,7 +11,7 @@ function LawyersPage() {
   return (
     <>
       <Helmet>
-        <title>Avukatlarımız - Adalet Hukuk Bürosu</title>
+        <title>Avukatlarımız | Adalet Hukuk Demosu</title>
         <meta
           name="description"
           content="Adalet Hukuk Bürosu'nun deneyimli avukat kadrosu. Ceza, ticaret, aile ve idari hukuk alanlarında uzman avukatlarımızla tanışın."
@@ -57,12 +57,14 @@ function LawyersPage() {
                 >
                   <Card className="h-full shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105">
                     <CardContent className="p-0">
-                      <div className="aspect-square overflow-hidden rounded-t-xl">
-                        <img
-                          src={lawyer.image}
-                          alt={`${lawyer.name} - ${lawyer.expertise.join(', ')} uzmanı`}
-                          className="w-full h-full object-cover"
-                        />
+                      {/* Fictional people: initials instead of photos of real people. */}
+                      <div
+                        className="aspect-square overflow-hidden rounded-t-xl bg-secondary flex items-center justify-center"
+                        aria-hidden="true"
+                      >
+                        <span className="text-5xl font-semibold text-primary/70">
+                          {lawyer.name.replace(/^Av\.\s*/, '').split(' ').map((part) => part[0]).join('')}
+                        </span>
                       </div>
                       <div className="p-6">
                         <h3 className="text-xl font-semibold text-foreground mb-3">

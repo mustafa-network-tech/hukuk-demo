@@ -1,12 +1,9 @@
 import React from 'react';
 import { Mail, MapPin, Phone, MessageCircle } from 'lucide-react';
+import { mkWhatsAppUrl } from '@/lib/mk-demo.js';
 
 function Footer() {
   const currentYear = new Date().getFullYear();
-
-  const handleWhatsAppClick = () => {
-    window.open('https://wa.me/905551234567', '_blank');
-  };
 
   return (
     <footer className="bg-primary text-primary-foreground">
@@ -27,34 +24,26 @@ function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 mt-0.5 flex-shrink-0" />
                 <span className="text-sm text-primary-foreground/80">
-                  Atatürk Bulvarı No: 123, Çankaya, Ankara
+                  Örnek adres · Ankara
                 </span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 flex-shrink-0" />
-                <a
-                  href="tel:+903121234567"
-                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200"
-                >
-                  +90 (312) 123 45 67
-                </a>
+                <span className="text-sm text-primary-foreground/80">+90 (000) 000 00 00 · örnek</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 flex-shrink-0" />
-                <a
-                  href="mailto:info@adalethukuk.com"
-                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200"
-                >
-                  info@adalethukuk.com
-                </a>
+                <span className="text-sm text-primary-foreground/80">info@adalet-hukuk.example</span>
               </div>
-              <button
-                onClick={handleWhatsAppClick}
-                className="flex items-center gap-3 text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200"
+              <a
+                href={mkWhatsAppUrl()}
+                target="_blank"
+                rel="noopener noreferrer"
+                className=""
               >
                 <MessageCircle className="w-5 h-5 flex-shrink-0" />
-                <span>WhatsApp: +90 555 123 45 67</span>
-              </button>
+                <span>İşletmeniz için benzer bir site: MK Digital Systems ile görüşün</span>
+              </a>
             </div>
           </div>
 
@@ -90,7 +79,7 @@ function Footer() {
             </div>
           </div>
           <p className="mt-4 pt-4 border-t border-primary-foreground/10 text-center text-sm text-primary-foreground/70">
-            Bu site gösterim amacıyla hazırlanmış bir demodur. — Mustafa Öner | MK Digital Systems
+            Bu site gösterim amacıyla hazırlanmış bir demodur. Kişiler, adres ve iletişim bilgileri örnektir. — MK Digital Systems
           </p>
         </div>
       </div>

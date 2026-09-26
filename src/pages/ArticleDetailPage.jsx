@@ -21,7 +21,7 @@ function ArticleDetailPage() {
     return (
       <>
         <Helmet>
-          <title>Makale Bulunamadı - Adalet Hukuk Bürosu</title>
+          <title>Makale Bulunamadı | Adalet Hukuk Demosu</title>
         </Helmet>
         <div className="min-h-screen flex flex-col">
           <Header />
@@ -59,7 +59,7 @@ function ArticleDetailPage() {
   return (
     <>
       <Helmet>
-        <title>{`${article.title} - Adalet Hukuk Bürosu`}</title>
+        <title>{`${article.title} | Adalet Hukuk Demosu`}</title>
         <meta name="description" content={article.summary} />
       </Helmet>
 
