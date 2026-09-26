@@ -48,7 +48,7 @@ function ArticlesPage() {
                 Makaleler
               </h1>
               <p className="text-xl text-primary-foreground/90 max-w-3xl mx-auto leading-relaxed">
-                Hukuk alanında güncel bilgiler ve analizler
+                Örnek makale içerikleri. Bilgilendirme amaçlıdır ve hukuki tavsiye yerine geçmez.
               </p>
             </motion.div>
           </div>

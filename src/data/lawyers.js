@@ -1,22 +1,24 @@
+// Sample profiles for a fictional firm: practice areas only, no names of real-looking
+// people and no invented experience, results or client satisfaction.
 export const lawyers = [
   {
-    name: 'Av. Elif Yılmaz',
+    title: 'Ceza ve İdari Hukuk',
     expertise: ['Ceza Hukuku', 'İdari Hukuk'],
-    description: 'Ceza hukuku alanında 12 yıllık deneyime sahip, müvekkillerinin haklarını kararlılıkla savunan bir avukat.'
+    description: 'Ceza ve idari hukuk alanlarında danışmanlık ve dava takibi için hazırlanmış örnek avukat profili.'
   },
   {
-    name: 'Av. Mehmet Kaya',
+    title: 'Ticaret ve Şirketler Hukuku',
     expertise: ['Ticari Hukuk', 'Şirketler Hukuku'],
-    description: 'Ticaret hukuku ve şirket birleşmeleri konusunda uzman, kurumsal müşterilere danışmanlık veren deneyimli avukat.'
+    description: 'Sözleşmeler, şirket işlemleri ve ticari uyuşmazlıklar için hazırlanmış örnek avukat profili.'
   },
   {
-    name: 'Av. Zeynep Arslan',
+    title: 'Aile ve Miras Hukuku',
     expertise: ['Aile Hukuku', 'Miras Hukuku'],
-    description: 'Aile hukuku ve miras davaları konusunda hassas ve çözüm odaklı yaklaşımıyla tanınan avukat.'
+    description: 'Aile ve miras hukuku süreçleri için hazırlanmış örnek avukat profili.'
   },
   {
-    name: 'Av. Can Demir',
+    title: 'İş ve İdari Yargı',
     expertise: ['İdari Hukuk', 'İş Hukuku'],
-    description: 'İdari yargı ve iş hukuku alanlarında geniş deneyime sahip, müvekkil memnuniyetini ön planda tutan avukat.'
+    description: 'İş hukuku ve idari yargı süreçleri için hazırlanmış örnek avukat profili.'
   }
 ];

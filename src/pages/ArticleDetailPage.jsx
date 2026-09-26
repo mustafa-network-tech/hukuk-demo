@@ -113,6 +113,10 @@ function ArticleDetailPage() {
                     </div>
                   </div>
 
+                  <p className="text-sm text-muted-foreground bg-secondary rounded-lg px-4 py-3 mb-8">
+                    Bu makale bir web sitesi demosu için hazırlanmış örnek içeriktir; hukuki tavsiye yerine geçmez.
+                  </p>
+
                   {/* Article Content */}
                   <div className="prose prose-lg max-w-none">
                     {article.content.split('\n\n').map((paragraph, index) => (

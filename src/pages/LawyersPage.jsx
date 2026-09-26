@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { Scale } from 'lucide-react';
 import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
 import { lawyers } from '@/data/lawyers.js';
@@ -37,7 +38,7 @@ function LawyersPage() {
                 Avukatlarımız
               </h1>
               <p className="text-xl text-primary-foreground/90 max-w-3xl mx-auto leading-relaxed">
-                Alanında uzman, deneyimli avukat kadromuzla tanışın
+                Çalışma alanlarına göre avukat profilleri. Bu sayfadaki profiller örnektir; gerçek kişileri temsil etmez.
               </p>
             </motion.div>
           </div>
@@ -57,18 +58,19 @@ function LawyersPage() {
                 >
                   <Card className="h-full shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105">
                     <CardContent className="p-0">
-                      {/* Fictional people: initials instead of photos of real people. */}
+                      {/* Sample profile: no person, no photo. */}
                       <div
                         className="aspect-square overflow-hidden rounded-t-xl bg-secondary flex items-center justify-center"
                         aria-hidden="true"
                       >
-                        <span className="text-5xl font-semibold text-primary/70">
-                          {lawyer.name.replace(/^Av\.\s*/, '').split(' ').map((part) => part[0]).join('')}
-                        </span>
+                        <Scale className="w-16 h-16 text-primary/60" />
                       </div>
                       <div className="p-6">
+                        <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-2">
+                          Örnek profil
+                        </p>
                         <h3 className="text-xl font-semibold text-foreground mb-3">
-                          {lawyer.name}
+                          {lawyer.title}
                         </h3>
                         <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
                           {lawyer.description}

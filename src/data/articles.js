@@ -22,7 +22,7 @@ Sözleşmeden doğabilecek uyuşmazlıkların hangi mahkemede veya tahkim yoluyl
 
 Sonuç olarak, profesyonel hukuki destek alınarak hazırlanan ticari sözleşmeler, işletmelerin hukuki güvenliğini sağlar ve olası riskleri minimize eder.`,
     date: "2026-02-18",
-    author: "Av. Elif Yılmaz"
+    author: "Örnek içerik"
   },
   {
     id: 2,
@@ -45,7 +45,7 @@ Boşanmaya neden olan olaylar nedeniyle kişilik hakları zedelenen eş, kusurlu
 Nafaka Hakları:
 Yoksulluk nafakası ve iştirak nafakası olmak üzere iki tür nafaka vardır. Yoksulluk nafakası, boşanma sonrası yoksulluğa düşen eşe ödenir. İştirak nafakası ise çocukların bakım ve eğitim giderlerine katılım için ödenir.`,
     date: "2026-02-05",
-    author: "Av. Mehmet Kaya",
+    author: "Örnek içerik",
     image: DEFAULT_ARTICLE_IMAGE
   },
   {
@@ -72,7 +72,7 @@ Manevi Tazminat:
 Zamanaşımı:
 İş kazasından kaynaklanan tazminat talepleri, zararın ve sorumlusunun öğrenildiği tarihten itibaren 2 yıl, her halde kazanın meydana geldiği tarihten itibaren 10 yıl içinde dava açılarak ileri sürülmelidir.`,
     date: "2026-01-22",
-    author: "Av. Zeynep Arslan",
+    author: "Örnek içerik",
     image: DEFAULT_ARTICLE_IMAGE
   },
   {
@@ -96,7 +96,7 @@ Uzlaştırma, hem mağdur hem de şüpheli/sanık için avantajlar sunar. Mağdu
 Uzlaştırmada Dikkat Edilmesi Gerekenler:
 Uzlaştırma görüşmeleri gizlidir ve bu görüşmelerde söylenenler yargılamada delil olarak kullanılamaz. Taraflar, uzlaştırma sürecinde avukat yardımından faydalanabilir.`,
     date: "2026-01-08",
-    author: "Av. Can Demir",
+    author: "Örnek içerik",
     image: DEFAULT_ARTICLE_IMAGE
   },
   {
@@ -120,7 +120,7 @@ Konut kiraları ile işyeri kiraları arasında önemli farklar vardır. İşyer
 Tahliye Tazminatı:
 Bazı durumlarda, kiracı tahliye tazminatı talep edebilir. Özellikle işyeri kiralarında, kiraya verenin haksız tahliye talebi halinde kiracı, uğradığı zararın tazminini isteyebilir.`,
     date: "2025-12-14",
-    author: "Av. Ayşe Şahin",
+    author: "Örnek içerik",
     image: DEFAULT_ARTICLE_IMAGE
   },
   {
@@ -147,7 +147,7 @@ Birleşme işleminde alacaklıların hakları korunur. Alacaklılar, belirli bir
 Tescil ve İlan:
 Birleşme işlemi, ticaret siciline tescil edilir ve Türkiye Ticaret Sicili Gazetesi'nde ilan edilir. Tescil ile birleşme hüküm ve sonuçlarını doğurur.`,
     date: "2025-11-27",
-    author: "Av. Murat Özkan",
+    author: "Örnek içerik",
     image: DEFAULT_ARTICLE_IMAGE
   },
   {
@@ -174,7 +174,7 @@ Yargılama Usulü:
 Kararın Sonuçları:
 İptal kararı kesinleştiğinde, işlem hukuk dünyasından kalkar. Tam yargı davasında verilen tazminat kararı ise, idarenin ödeme yükümlülüğünü doğurur.`,
     date: "2025-11-03",
-    author: "Av. Elif Yılmaz",
+    author: "Örnek içerik",
     image: DEFAULT_ARTICLE_IMAGE
   },
   {
@@ -201,7 +201,7 @@ Fikri mülkiyet hakkı ihlalinde, hak sahibi mahkemeden ihtiyati tedbir kararı 
 Tazminat Talepleri:
 İhlal nedeniyle uğranılan maddi ve manevi zararlar için tazminat talep edilebilir. Tazminat miktarı, ihlalden elde edilen kazanç veya lisans bedeli esas alınarak hesaplanabilir.`,
     date: "2025-10-19",
-    author: "Av. Mehmet Kaya",
+    author: "Örnek içerik",
     image: DEFAULT_ARTICLE_IMAGE
   }
 ];

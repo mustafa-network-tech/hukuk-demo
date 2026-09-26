@@ -65,7 +65,7 @@ function AboutPage() {
                   </div>
                   <div className="space-y-4 text-muted-foreground leading-relaxed max-w-prose">
                     <p>
-                      Adalet Hukuk Bürosu, Ankara merkezli olarak faaliyet gösteren, ceza hukuku, ticaret hukuku, 
+                      Adalet Hukuk Bürosu; ceza hukuku, ticaret hukuku,
                       aile hukuku ve idari hukuk alanlarında uzmanlaşmış bir hukuk bürosudur. Kuruluşumuzdan bu 
                       yana müvekkillerimize en yüksek kalitede hukuki hizmet sunmayı ilke edindik.
                     </p>

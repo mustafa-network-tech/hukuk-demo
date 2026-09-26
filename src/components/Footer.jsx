@@ -39,7 +39,7 @@ function Footer() {
                 href={mkWhatsAppUrl()}
                 target="_blank"
                 rel="noopener noreferrer"
-                className=""
+                className="flex items-center gap-3 text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200"
               >
                 <MessageCircle className="w-5 h-5 flex-shrink-0" />
                 <span>İşletmeniz için benzer bir site: MK Digital Systems ile görüşün</span>

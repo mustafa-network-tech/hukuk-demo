@@ -37,7 +37,7 @@ function HomePage() {
         <title>Adalet Hukuk — Hukuk Bürosu Web Sitesi Demosu | MK Digital Systems</title>
         <meta
           name="description"
-          content="Ankara merkezli Adalet Hukuk Bürosu olarak ceza, ticaret, aile ve idari hukuk alanlarında profesyonel hukuki danışmanlık ve temsil hizmetleri sunuyoruz."
+          content="Adalet Hukuk, MK Digital Systems’in hukuk büroları için hazırladığı bir web sitesi demosudur."
         />
       </Helmet>
 
